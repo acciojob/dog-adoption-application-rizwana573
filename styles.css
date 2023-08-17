@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+.inputField{
+	margin:10px auto;
+}
+label{
+	display:block;
+}
+
+form{
+	font-size:18px;
+	max-width:300px;
+}
+input{
+	width:100%;
+}
+.check label{
+	width: calc(100% - 30px);
+	font-size:14px;
+}
+#checkbox{
+	width:13px;
+}
+.check label, #checkbox{
+	display:inline-block;
+}
